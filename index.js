@@ -1,11 +1,11 @@
 describe('shout(string)', function() {
   it('receives one argument and returns it in all caps', function() {
-    expect(shout('hello')).toEqual('HELLO');
+    expect(shout('sayHiToGrandma')).toEqual('sayHiToGrandma');
   });
 });
 describe('whisper(string)', function() {
   it('receives one argument and returns it in all lowercase', function() {
-    expect(whisper('sayHiToGrandma')).toEqual('hello');
+    expect(whisper('sayHiToGrandma')).toEqual('sayHiToGrandma');
   });
 });
 describe('logShout(string)', function() {
